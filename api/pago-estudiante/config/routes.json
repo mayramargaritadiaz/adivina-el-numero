@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pago-estudiantes",
+      "handler": "pago-estudiante.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pago-estudiantes/count",
+      "handler": "pago-estudiante.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pago-estudiantes/:id",
+      "handler": "pago-estudiante.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pago-estudiantes",
+      "handler": "pago-estudiante.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pago-estudiantes/:id",
+      "handler": "pago-estudiante.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pago-estudiantes/:id",
+      "handler": "pago-estudiante.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

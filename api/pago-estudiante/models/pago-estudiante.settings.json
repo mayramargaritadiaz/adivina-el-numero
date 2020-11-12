@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pago_estudiantes",
+  "info": {
+    "name": "PagoEstudiante"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "monto": {
+      "type": "biginteger",
+      "required": true,
+      "max": "100000"
+    },
+    "fecha": {
+      "type": "date",
+      "required": true
+    },
+    "descuento": {
+      "type": "integer",
+      "max": 100
+    },
+    "estudiante": {
+      "model": "estudiante",
+      "via": "pago_estudiantes"
+    }
+  }
+}
