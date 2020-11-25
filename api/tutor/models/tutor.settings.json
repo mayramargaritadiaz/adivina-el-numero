@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tutors",
+  "info": {
+    "name": "Tutor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Nombre": {
+      "type": "string",
+      "required": true,
+      "maxLength": 250
+    },
+    "Edad": {
+      "type": "integer",
+      "max": 99,
+      "required": true
+    },
+    "Sexo": {
+      "type": "boolean"
+    },
+    "Identificacion": {
+      "type": "biginteger",
+      "unique": true,
+      "required": true
+    }
+  }
+}

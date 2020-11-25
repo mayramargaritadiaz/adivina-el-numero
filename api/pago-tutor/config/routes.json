@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pago-tutors",
+      "handler": "pago-tutor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pago-tutors/count",
+      "handler": "pago-tutor.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pago-tutors/:id",
+      "handler": "pago-tutor.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pago-tutors",
+      "handler": "pago-tutor.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pago-tutors/:id",
+      "handler": "pago-tutor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pago-tutors/:id",
+      "handler": "pago-tutor.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

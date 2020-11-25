@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "materials",
+  "info": {
+    "name": "Material",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "contenido": {
+      "type": "text",
+      "required": true
+    },
+    "fecha": {
+      "type": "date"
+    }
+  }
+}

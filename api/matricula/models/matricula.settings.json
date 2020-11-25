@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "matriculas",
+  "info": {
+    "name": "Matricula",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "periodo_pago": {
+      "type": "string",
+      "required": true
+    },
+    "estado": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "estudiante": {
+      "unique": true,
+      "model": "estudiante"
+    },
+    "materias": {
+      "collection": "materia"
+    }
+  }
+}

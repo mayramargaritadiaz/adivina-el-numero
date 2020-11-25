@@ -24,8 +24,8 @@
       "max": 100
     },
     "estudiante": {
-      "model": "estudiante",
-      "via": "pago_estudiantes"
+      "via": "pago_estudiantes",
+      "model": "estudiante"
     }
   }
 }
