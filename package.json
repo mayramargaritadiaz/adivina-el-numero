@@ -1,8 +1,8 @@
 {
-  "name": "strapi-development",
+  "name": "CAP",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Backend API for CAP Sahagún",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -25,7 +25,7 @@
     "strapi-utils": "3.3.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Mayra Diáz, Jhon Bairon Ramos "
   },
   "strapi": {
     "uuid": "DO-ba3bf4db-e667-4007-a3a0-7ee01f44d142"
